@@ -64,3 +64,30 @@
   filter: sepia(60%);
   border-radius: 20px;
 }
+/* 10 exercise */
+.ex-10-icon {
+  animation: rotation 1s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+/* 11 exercise */
+.ex-11-icon:hover {
+  animation: rotation 2s linear;
+}
+@keyframes rotation {
+  0& {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
