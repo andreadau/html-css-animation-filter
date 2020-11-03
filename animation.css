@@ -1,32 +1,32 @@
-/* First square */
+/* 1 exercise */
 .ex-1-square {
   transition: 2s ease-in-out;
 }
 .ex-1-square:hover {
   background: red;
 }
-/* Second square */
+/* 2 exercise */
 .ex-2-square {
   transition: width 3s;
 }
 .ex-2-square:active {
   width: 100%;
 }
-/* Third Square */
+/* 3 exercise */
 .ex-3-square {
   transition: border-radius 0.5s;
 }
 .ex-3-square:hover {
   border-radius: 50%;
 }
-/* Forth square */
+/* 4 exercise */
 .ex-4-square {
   transition: opacity 2s;
 }
 .ex-4-square:hover {
   opacity: 0;
 }
-/* Fifth square */
+/* 5 exercise */
 .ex-5-square {
   transition: transform 2s;
 }
@@ -35,4 +35,32 @@
 }
 .ex-5-square:active {
   transform: scale(0.5);
+}
+/* 6 exercise */
+.ex-6-img:hover {
+  filter: grayscale(100%);
+}
+/* 7 exercise */
+.ex-7-img {
+  transition: filter 2s;
+}
+.ex-7-img:hover {
+  filter: sepia(60%);
+}
+/* 8 exercise*/
+.ex-8-img {
+  transition: filter 2s, border-radius 2s;
+}
+.ex-8-img:hover {
+  filter: sepia(60%);
+  border-radius: 20px;
+}
+/* 9 exercise */
+.ex-9-img {
+  transition: transform 2s, filter 2s, border-radius 2s;
+}
+.ex-9-img:hover {
+  transform: scale(1.5);
+  filter: sepia(60%);
+  border-radius: 20px;
 }
